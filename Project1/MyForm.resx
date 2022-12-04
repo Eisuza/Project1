@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 561</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAIB8AAAEAIAAkEAAAFgAAACgAAAAgAAAAPgAAAAEAIAAAAAAAgA8AAMMOAADDDgAAAAAAAAAA
+        AADoogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIB/+miAP/YqID/2Kh+/+qh
+        AP/pogP/56ID/+iiAP/oogD/6KIA/+iiAP/oogD/6KIC/+iiBf/roQD/3Kdi/9Wpl//oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAf/oogD/56II/8qu
+        6P/Hr///0au3/+eiEf/qoQD/56IF/+iiAP/oogD/6KIA/+eiBP/poQD/6aID/9Wqnv/Irv//x6/+/+Sk
+        If/pogD/6KIC/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        A//poQD/06qo/8ev///Hr///zK3f/+ClRP/roQD/56IF/+eiA//nogX/66EA/+OkLP/OrM7/x6///8iu
+        ///PrMr/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/56IE/+qhAP/Zp33/xq///8yt5f/Hr/b/yK72/9qoef/pogD/6aIB/+qhAP/dp2D/yq3q/8av
+        /f/MreH/x6///9Wpov/qoQD/6KID/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KMC/+ii
+        Af/oogD/6KIA/+iiAP/oogL/6aEA/+OkLP/Hr///06qq/92mW//Jrvj/xbD//9Sqo//jpCv/16iK/8av
+        ///Hr///2qd2/9iohv/EsP//3aZW/+qhAP/oogT/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ij
+        Af/nnwH/6KAB/+ikAv/oogD/6KIA/+iiAP/oogH/6aIA/86s0f/Irv//56IR/+WjH//NreH/xrD//8mu
+        +//Gr///yq3x/+GlPv/roQD/zazj/8iu/v/kpCL/6aIA/+iiAv/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oowH/558A/+yvKv/qqRj/5pwA/+ijBP/oowL/6KIA/+iiA//qoQD/1qmV/8Ww///dpmX/66IA/+eh
+        Bv/TpZP/xa3//9Cotf/moxb/6qEA/+SkKf/Irv//0au9/+mhAP/oogH/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIB/+ihAP/ppQn//PPe//768f/wwVP/55wA/+igAv/opAP/56IE/+qhAP/cpmf/xbD//9ap
+        lP/onAD/6aQH//bal//29///9Nig/+idAP/qogD/2qdu/8Sw///YqI7/6qEA/+eiBP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogH/6KEA/+ikBf/779L////////////336X/6akX/+edAP/opAb/6KIA/+Wj
+        Gf/Jrv//zqvM/++6Ov/89OL////////////yzXj/5pwA/+qiAP/Tqqb/xq///+KkNf/poQD/6KIC/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/opAT/5psA//PQhf///////vv1///////88t3/7LUz/+ab
+        AP/ooAD/6KMM/9CtzP/Gqf//9O31/////v/+/f3//v36/+uvLP/ongD/5qQV/8qu9//MreX/5aMe/+qi
+        AP/oogX/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ijA//nngD/7LQ4///////45bf/9dWL////
+        ///+/v7/99aA/+iqIv/PrND/xKj//824///48ur/9tmS//7+/P/89OT/6KII/+iiAP/nogf/zqzO/8aw
+        ///Mreb/46Qs/+uhAP/nogX/6KIB/+iiAP/oogD/6KIA/+iiAP/oogD/6KIB/+ihAP/opAz//vjw//75
+        7//opRX/8MRf///+6f/x7P//zrX2/8On/f/azP//9eTL/+yuHP/vwFr///////XXk//mnAD/6KMF/+mi
+        AP/nohL/1ama/8av///Krer/3Kdl/+qhAP/oogT/6KIB/+iiAP/oogD/6KIA/+iiAP/oogD/6KMD/+ed
+        AP/33KD//////+/AV//nlgD/4LJ6/8es///Grf7/3Mv5//TQff/ppAj/5JYA//fgrP//////7rg9/+ed
+        AP/oowT/56IG/+iiBP/qoQD/2KmK/8ev+v/Gr///2ah6/+miBP/oogL/6KIC/+iiAP/oogD/6KIA/+ii
+        AP/oowP/55wA/+69Tv//////996k/9Olk//Grv//yaz1/+GsWv/xsA//6ZwA/+meAP/sqQ7//vvu//z0
+        4v/oowf/6KEA/+miAf/qoQD/6qEA/+qhAv/toAD/46Qx/8yt5v/Gr///0KvB/+iiC//pogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAf/ooQD/6acS//325v/byf//xqr5/8qv///NreD/1qiM/9Ommf/Vq6T/1aqd/9Op
+        pv/w7P//+eW0/+adAP/powD/4aU2/9SqqP/Vqp3/1aqf/9SqpP/XqY//z6zQ/8mu///Hr///0KvD/+aj
+        EP/oogD/6KIA/+iiAP/oogD/6KQE/+efAf/onwD/+ezV/9K////GrP3/x6///8ev///FsP//xbD//8Wv
+        ///FsP//xKv7/8y2///vy4T/55wA/+igAv/NrdX/xbD//8Wv/f/Fr///xa///8Ww///Gr///x6/+/8ev
+        ///Lrer/5KQj/+iiAP/oogD/6KMB/+ikA//mmgD/660m//rqxv//////9+nV/9+kQ//gpUL/4KVB/+Cl
+        Pv/gpT7/4KVA/+GkNP/TrLX/xan//+zl///73o3/4qU4/8ev///Prc//4aU6/+ClPv/gpT7/4KU+/+Cl
+        QP/gpUH/36VH/+WjIP/qoQD/6KIA/+ijAv/oogT/55wA//DDWf/89eP///////fepf/rqhn/6qAA/+qi
+        Af/qoQD/6qEA/+qhAP/qoQT/7KEA/9+nWv/Eqv//2sb9/////P/p3PD/w6r//9qlef/soQD/6aIE/+qh
+        AP/qoQD/6qEA/+qhAP/qoQD/6aIB/+iiAf/oowL/554A/+iiCf/44qz///////768f/yy3D/550C/+ee
+        AP/noQD/56ID/+iiBP/oogP/6KID/+ijBv/oogD/5qES/8qs9P/NsOz/+uat/9nH///Eqv//5rht/+id
+        AP/nogb/6KIE/+iiA//oogP/6KID/+iiA//oogH/6KIA/+ecAP/sszT/+/DW///////8897/771J/+ec
+        AP/ppwz/6aYK/+mmCv/oogb/6KEA/+iiAP/oowD/558A/+ehCf/rpQD/0qmx/8et///eokj/yqzs/862
+        ///8+v3/99yd/+ihBv/ooQD/6KIB/+iiAP/oogD/6KIA/+iiAP/oogD/7LIs//789v////////////35
+        7v/89eT//vv2//768f/++e///vz2//jisv/noAD/6KMD/+efAP/ssSr/+uzO////8v/l1/n/xan//82x
+        8f/GqP3/3c3//////P//////+OS0/+efAP/oowL/6KIA/+iiAP/oogD/6KIA/+iiAP/rryT/+ee///32
+        5v/99OH//fbo//347P/99+n//ffp//325//++/X//////+23P//nnwD/550A//bboP////////rq//Tp
+        5f/Jrvz/ya///8er/v/t3+b///nh//z05f/004f/6KEA/+iiAf/oogD/6KIA/+iiAP/oogD/6KIA/+ef
+        AP/nngL/6KUF/+ikBf/opAX/6KME/+ijBP/opAf/554A/+/AUv//////9NOM/+abAP/ppxL//PXk//78
+        +P/rriL/6aIA/9Gtyf/Irv//y671/+amIf/powD/6KQH/+ecAf/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KMC/+ijA//ooQD/6KEA/+ihAP/ooQD/6KEA/+iiAv/nnQD/7K8q///////78Nj/5p0A/+66
+        SP//////+eS4/+acAP/roQD/16iK/8Ow///Rq7f/6aAA/+ihAv/ooQD/6KME/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAf/oogH/6KIB/+iiAf/oogH/6KIB/+ijAv/nnwD/+urJ////
+        ///rrir/9NOJ///////xxWT/5pwA/+mjAP/jpC3/za3e/9+lSf/qoQD/6KID/+iiAf/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KQE/+ab
+        AP/zzHT///////XVjf/77tD//////+qrGv/noAD/6KMC/+mhAP/oogb/6aEB/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oowL/558A/+ywKP///vz///37///////55Lb/554A/+ijA//oogD/6KIC/+iiAv/oogL/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogH/558A//rpw/////////////HFZP/mnAD/6KME/+iiAP/oogD/6KIB/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+ijBP/mnAD/8st1///////++e//6qwg/+egAP/oowL/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KMC/+efAP/rrib//v34//ffqv/nngD/6KMB/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KMB/+eeAP/rsCj/6aYS/+eg
+        AP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+iiAP/oogD/6KIA/+ii
+        AP/oogD/6KIA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 600</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>OOP IPR1</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>MyForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
